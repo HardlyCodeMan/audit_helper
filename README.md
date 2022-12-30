@@ -21,7 +21,7 @@ user@machine:~/ curl -L https://foundry.paradigm.xyz | bash
 
 ```bash
 mkdir ~/audit_helper
-wget https://raw.githubusercontent.com/HardlyCodeMan/audit_helper/main/audit_helper -o ~/audit_helper/audit_helper
+wget https://raw.githubusercontent.com/HardlyCodeMan/audit_helper/main/audit_helper
 chmod u+x ~/audit_helper/audit_helper
 echo "export PATH=$PATH;~/audit_helper/audit_helper" >> ~/.bashrc
 source ~/.bashrc
