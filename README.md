@@ -2,6 +2,7 @@
 ## Description
 
 audit_helper is a Python3 helper script for Linux to automate some Foundry boilerplate set up in audit repositories.
+
 Too many times have I found myself initialising Hardhat framework based audit repositories with my preferred audit framework Foundry.
 
 ## Requirements
@@ -20,7 +21,7 @@ user@machine:~/ curl -L https://foundry.paradigm.xyz | bash
 
 ```bash
 mkdir ~/audit_helper
-wget https://raw.githubusercontent.com/HardlyCodeMan/audit_helper/main/audit_helper.py -o ~/audit_helper/audit_helper
+wget https://raw.githubusercontent.com/HardlyCodeMan/audit_helper/main/audit_helper -o ~/audit_helper/audit_helper
 chmod u+x ~/audit_helper/audit_helper
 echo "export PATH=$PATH;~/audit_helper/audit_helper" >> ~/.bashrc
 source ~/.bashrc
@@ -66,4 +67,5 @@ The above bash command will:
 ## Issues and Improvements
 
 Feel free to create issues to raise awareness of problems or feature implementation requests.
+
 By all means please contribute fixes and features through pull requests.
